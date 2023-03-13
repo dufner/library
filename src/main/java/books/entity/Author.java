@@ -1,4 +1,4 @@
-package books;
+package books.entity;
 
 
 import lombok.AccessLevel;
@@ -14,7 +14,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-@Data
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor(access= AccessLevel.PRIVATE, force=true)

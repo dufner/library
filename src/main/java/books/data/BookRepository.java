@@ -1,6 +1,6 @@
 package books.data;
 
-import books.Book;
+import books.entity.Book;
 import org.springframework.data.repository.CrudRepository;
 
 

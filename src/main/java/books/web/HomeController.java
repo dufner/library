@@ -1,8 +1,8 @@
 package books.web;
 
-import books.Book;
 import books.data.AuthorRepository;
 import books.data.BookRepository;
+import books.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;

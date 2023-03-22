@@ -1,9 +1,9 @@
-package books;
+package com.example.Library;
 
-import books.data.AuthorRepository;
-import books.data.BookRepository;
-import books.entity.Author;
-import books.entity.Book;
+import com.example.Library.data.AuthorRepository;
+import com.example.Library.data.BookRepository;
+import com.example.Library.entity.Author;
+import com.example.Library.entity.Book;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +15,7 @@ import java.util.List;
 
 
 @SpringBootApplication
-@EntityScan("books.*")
+
 public class LibraryApplication {
 
     public static void main(String[] args) {

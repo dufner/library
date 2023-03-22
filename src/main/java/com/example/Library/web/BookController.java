@@ -1,10 +1,11 @@
-package books.web;
+package com.example.Library.web;
 
-import books.data.AuthorRepository;
-import books.data.BookRepository;
-import books.entity.Book;
+import com.example.Library.data.AuthorRepository;
+import com.example.Library.data.BookRepository;
+import com.example.Library.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,17 +15,17 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping("/home")
-public class HomeController {
+public class BookController {
 
     private final BookRepository bookRepo;
-    private final AuthorRepository authorRepository;
+
 
     @Autowired
-    public HomeController(
+    public BookController(
             BookRepository ingredientRepo,
             AuthorRepository authorRepository) {
         this.bookRepo = ingredientRepo;
-        this.authorRepository=authorRepository;
+//        this.authorRepository=authorRepository;
     }
 
     @GetMapping("/findAll")

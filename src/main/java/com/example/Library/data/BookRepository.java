@@ -1,6 +1,6 @@
-package books.data;
+package com.example.Library.data;
 
-import books.entity.Book;
+import com.example.Library.entity.Book;
 import org.springframework.data.repository.CrudRepository;
 
 

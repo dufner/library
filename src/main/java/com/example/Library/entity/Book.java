@@ -1,4 +1,4 @@
-package books.entity;
+package com.example.Library.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

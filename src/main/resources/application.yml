@@ -3,3 +3,5 @@ spring:
   datasource:
     generate-unique-name: false
     name: library
+#server:
+#  port : 0

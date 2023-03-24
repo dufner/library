@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Library Cloud</title>
+    <link rel="stylesheet" th:href="@{/styles.css}" />
+  </head>
+  
+  <body>
+    <h1>Welcome to Library </h1>
+    <img class="library" th:src="@{/images/img.png}"/>
+    
+    <a th:href="@{/reservationOfBook}" id="reservationOfBook">Reserve a book</a>
+  </body>
+</html>
